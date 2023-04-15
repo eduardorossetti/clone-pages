@@ -1,0 +1,254 @@
+@font-face {
+    font-family: 'airbnb--black';
+    src: url('assets/fonts/AirbnbCerealBlack.ttf');
+}
+
+@font-face {
+    font-family: 'airbnb--light';
+    src: url('assets/fonts/AirbnbCerealLight.ttf');
+}
+
+@font-face {
+    font-family: 'airbnb--bold';
+    src: url('assets/fonts/AirbnbCerealBold.ttf');
+}
+
+
+body{
+    padding: 0;
+    margin: 0;
+}
+
+.topo{
+    background-color: black;
+    color: #b3b3b3;
+    display: flex;
+    height: 60px;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.topo--texto{
+    color: grey;
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+.topo--texto:hover{
+    color: #898989;
+}
+
+.fundo{
+    height: 660px;
+    background-image: url("images/Airbnb_Ireland.webp");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: bottom;
+}
+
+.menu{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    flex-direction: row;
+    height: 80px;
+}
+
+.menu--flex{
+    flex: 1;
+}
+
+.logo{
+    margin-left: 80px;
+    cursor: pointer;
+}
+
+.menus{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.itens--menu{
+    font-family: 'airbnb--light';
+    font-size: 21px;
+    cursor: pointer;
+    background: transparent;
+    border-radius: 25px;
+    border: 0;
+    padding: 15px;
+    font-weight: bold;
+}
+
+.itens--menu:hover{
+    background: #f0f0f0;
+}
+
+.last--menu--itens{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.menu--button{
+    background: transparent;
+    color: #222222;
+    font-family: 'airbnb--light';
+    font-weight: 600;
+    font-size: 21px;
+    border-radius: 25px;
+    padding: 15px 15px;
+    border: 0;
+    cursor: pointer;
+}
+
+.menu--button:hover{
+    background: #f0f0f0;
+}
+
+.menu--icon{
+    border: 0;
+    padding: 10px;
+    background: transparent;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+.icon--globe{
+    font-size: 30px;
+}
+
+.button--icons{
+    background: #f0f0f0;
+    color: #222222;
+    font-weight: 600;
+    border-radius: 25px;
+    padding: 5px 10px;
+    border: 0;
+    cursor: pointer;
+    margin-left: 15px;
+}
+
+.menu--icon:hover{
+    background: #f0f0f0;
+}
+
+.buscas{
+    height: 65px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.buscar{
+    height: 100%;
+    background: white;
+    border: 0;
+    border-radius: 50px;
+    width: 65%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.item--buscar{
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+}
+
+.item--buscar--1{
+    flex: 2;
+    display: flex;
+    flex-direction: column;
+
+}
+
+.item--buscar--4{
+    flex: 2;
+    flex-direction: column;
+}
+
+.buscar--1{
+    margin-left: 30px;
+    display: flex;
+    flex-direction: column;
+    cursor: pointer;
+    flex: 1;
+}
+
+.primeiro--item{
+    font-size: 15px;
+    font-family: 'airbnb--light';
+    font-weight: bold;
+}
+
+.segundo--item{
+    font-family: 'airbnb--light';
+    color: grey;
+    font-size: 16px;
+}
+
+.itens--4{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.button--buscar{
+    background: #ff385c;
+    border: 0;
+    outline: 0;
+    border-radius: 50%;
+    padding: 10px;
+    width: 50px;
+    height: 50px;
+    color: white;
+    cursor: pointer;
+    margin-right: 10px;
+}
+
+.button--buscar:hover{
+    background: #e41D5d;
+}
+
+.buscar--2{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+}
+
+.natureza{
+    display: flex;
+    align-items: center;
+    margin-top: 200px;
+    padding-left: 150px;
+}
+
+.text--natureza{
+    font-family: 'airbnb-bold';
+    font-size: 60px;
+    color: #222222;
+}
+
+.explore{
+    margin-left: 80px;
+    font-family: 'airbnb--bold';
+    font-size: 30px;
+}
+
+.locais{
+    height: 80px;
+    padding: 10px 80px;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+}
+
+.locais--itens{
+    flex: 1;
+    display: flex;
+}

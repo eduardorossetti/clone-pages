@@ -1,0 +1,63 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter&family=Roboto:wght@300&display=swap');
+
+body{
+    font-family: 'Roboto', sans-serif;
+}
+
+.login{
+    border: none;
+    width: 100%;
+    height: 50px;
+    background: white;
+}
+
+.texto_login{
+    float: right;
+    margin-right: 20px;
+    margin-top: 15px;
+}
+
+.bola{
+    width: 50px;
+    margin-top: 20px;
+    margin-left: 15px;
+}
+
+.imagem{
+    width: 100%;
+    max-width: 600px;
+}
+
+.pesquisa{
+    font-size: 20px;
+}
+
+.campo{
+    padding: 10px;
+    width: 100%;
+    max-width: 700px;
+    border-radius: 15px;
+    border: 1px solid gray;
+    outline: none !important;
+}
+
+.botao_pesquisa{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 15px;
+    padding-right: 15px;
+    font-size: 14px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    background: rgb(244, 244, 244);
+}
+
+.botao_pesquisa:hover{
+    border: 1px solid gray;
+}
+
+.texto--link{
+    font-size: 16px;
+    font-weight:600;
+}
