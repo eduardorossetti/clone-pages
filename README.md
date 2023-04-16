@@ -1,2 +1,2 @@
 # clone-pages
-Clone estático de páginas
+Repositório de clone estático de páginas web.
